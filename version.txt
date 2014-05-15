@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <title>Dice Game Version Reminder</title>
+
+</head>
+<body>
+<p>
+        Current Version: 0.9.1 (beta) (May 15, 2014)
+		#
+		# TODO:
+		#	* Add Keyboard Game
+		#	* Add graphics for other sided dice
+
+        Version history:
+
+
+
+
+</p>
+</body>
+</html>

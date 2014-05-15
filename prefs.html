@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>The Dice Game</title>
+	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+
+	<link href="/Dice-Game/src/style/teams-stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="/Dice-Game/src/style/score-stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="/Dice-Game/src/style/main.css" rel="stylesheet" type="text/css">
+	<link href="/Dice-Game/src/style/prefs.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="/Dice-Game/src/scripts/prefs.js"></script>
+</head>
+<body>
+<img class="smartboard" src="/Dice-Game/src/img/smart-board.jpg"/>
+
+<header class="nav">
+	<a href="/Dice-Game/" class="btn btn-large btn-info pull-right pref-button">Back to Game</a>
+	<h1>Dice Game Preferences</h1>
+	<h4 class="instructions">Modify your game preferences</h4>
+</header>
+<div class="preference-pane">
+
+	<div class="pref">
+		<div class="opt">
+			<label>Game Type:</label>
+			<select class="game-type">
+				<option>Original</option>
+				<option>Keyboard</option>
+				<option>Smartboard</option>
+			</select>
+		</div>	
+		<div class="desc">
+			<p class="game-type-desc"></p>
+		</div>
+	</div>
+	<div class="pref">
+		<div class="opt">
+			<label>Victory Score:</label>
+			<input min=1 class="victory-score-pref" type="number"></input>
+		</div>
+		<div class="desc">
+			<p class="victory-score-desc"></p>
+		</div>
+	</div>
+	<div class="pref">
+		<div class="opt">
+			<label>Dice Types:</label>
+			<select class="dice-pref">
+				<option>6</option>
+				<option>12</option>
+				<option>20</option>
+			</select>
+			<select class="dice-pref">
+				<option>6</option>
+				<option>12</option>
+				<option>20</option>
+			</select>
+			<select class="dice-pref">
+				<option>6</option>
+				<option>12</option>
+				<option>20</option>
+			</select>
+			<select class="dice-pref">
+				<option>6</option>
+				<option>12</option>
+				<option>20</option>
+			</select>
+			<select class="dice-pref">
+				<option>6</option>
+				<option>12</option>
+				<option>20</option>
+			</select>
+		</div>
+		<div class="desc">
+			<p class="dice-type-desc">
+				The number of faces on each dice to be rolled. (The extra dice always has 6).
+			</p>
+		</div>
+	</div>
+	<div class="pref">
+		<div class="opt">
+			<label>Digit display:</label>
+			<select class='radix-pref'>
+				<option>Decimal</option>
+				<option>Binary</option>
+				<option>Hexadecimal</option>
+			</select>
+		</div>
+		<div class="desc">
+			<p class="radix-type-desc">
+				The radix with which to display the digit representation.<br />Viewing in binary will make it much easier to see bitwise operation possibilities...
+			</p>
+		</div>
+	</div>
+
+
+</div>
+
+<footer>        
+        <p>&copy; 2014, Kenneth Christensen</p>
+</footer>
+</body>
+</html>

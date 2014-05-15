@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>The Dice Game</title>
+	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+
+	<link href="/Dice-Game/src/style/teams-stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="/Dice-Game/src/style/score-stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="/Dice-Game/src/style/main.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="/Dice-Game/src/scripts/game.js"></script>
+	<script type="text/javascript" src="/Dice-Game/src/scripts/main.js"></script>
+</head>
+<body>
+<img class="smartboard" src="/Dice-Game/src/img/smart-board.jpg"/>
+
+<header class="nav">
+	<h1>Welcome to the Dice Game</h1>
+	<h4>Press Start to begin</h4>
+</header>
+<div class="game-area container">
+
+
+	<div class="row row1">
+
+		<div class="team-spot">
+
+			<div class="team-one">
+				<i class="team team-logo"></i>
+				<i class="score-number team-score"></i>
+			</div>
+
+
+		</div>
+
+
+		<div class="game-controls">
+			<button class="btn btn-success btn-large start-button">Start!</button>
+			<div class="dice-area">
+
+				<div class="dice-group">
+					<span class="dice btn add-die">Add One</span>
+					<img class="dice" id="extra-die"/>
+					<img class="dice first"/>
+					<img class="dice second"/>
+					<img class="dice third"/>
+					<img class="dice fourth"/>
+					<span>=</span>
+					<img class="dice answer"/>
+				</div>
+
+				<div class="digit-group">
+					<span class="digit extra">N/A</span>
+					<span class="digit"></span>
+					<span class="digit"></span>
+					<span class="digit"></span>
+					<span class="digit"></span>
+					<span>=</span>
+					<span class="digit"></span>
+				</div>
+	
+			</div>
+			<div class="solution-area">
+				<input type="text" class="submit-field"  placeholder="Type solution here."></input>
+				<button class="btn submit-btn">Submit</button>
+			</div>
+		</div>
+		<div class="team-spot">
+			<div class="team-two">
+				<i class="team team-logo"></i>
+				<i class="score-number team-score"></i>
+			</div>
+		</div>
+	</div>
+	<div class="row row2">
+		<div class="feedback-area">
+			<div class="feedback-holder">
+				<p class="feedback"></p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,306 @@
+.score-number {
+    background-image: url(/Dice-Game/src/img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+
+.score-number-Team1-N-1 {
+    width: 200px;
+    height: 200px;
+    background-position: 0 0;
+}
+
+.score-number-Team1-N-10 {
+    width: 200px;
+    height: 200px;
+    background-position: -200px 0;
+}
+
+.score-number-Team1-N-11 {
+    width: 200px;
+    height: 200px;
+    background-position: -400px 0;
+}
+
+.score-number-Team1-N-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -600px 0;
+}
+
+.score-number-Team1-N-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -800px 0;
+}
+
+.score-number-Team1-N-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -1000px 0;
+}
+
+.score-number-Team1-N-5 {
+    width: 200px;
+    height: 200px;
+    background-position: 0 -200px;
+}
+
+.score-number-Team1-N-6 {
+    width: 200px;
+    height: 200px;
+    background-position: -200px -200px;
+}
+
+.score-number-Team1-N-7 {
+    width: 200px;
+    height: 200px;
+    background-position: -400px -200px;
+}
+
+.score-number-Team1-N-8 {
+    width: 200px;
+    height: 200px;
+    background-position: -600px -200px;
+}
+
+.score-number-Team1-N-9 {
+    width: 200px;
+    height: 200px;
+    background-position: -800px -200px;
+}
+
+.score-number-Team1-N2-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -1005px -205px;
+}
+
+.score-number-Team1-N2-10 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -415px;
+}
+
+.score-number-Team1-N2-11 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -415px;
+}
+
+.score-number-Team1-N2-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -415px;
+}
+
+.score-number-Team1-N2-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -415px;
+}
+
+.score-number-Team1-N2-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -415px;
+}
+
+.score-number-Team1-N2-5 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -415px;
+}
+
+.score-number-Team1-N2-6 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -625px;
+}
+
+.score-number-Team1-N2-7 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -625px;
+}
+
+.score-number-Team1-N2-8 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -625px;
+}
+
+.score-number-Team1-N2-9 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -625px;
+}
+
+.score-number-Team2-N-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -625px;
+}
+
+.score-number-Team2-N-10 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -625px;
+}
+
+.score-number-Team2-N-11 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -835px;
+}
+
+.score-number-Team2-N-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -835px;
+}
+
+.score-number-Team2-N-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -835px;
+}
+
+.score-number-Team2-N-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -835px;
+}
+
+.score-number-Team2-N-5 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -835px;
+}
+
+.score-number-Team2-N-6 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -835px;
+}
+
+.score-number-Team2-N-7 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -1045px;
+}
+
+.score-number-Team2-N-8 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -1045px;
+}
+
+.score-number-Team2-N-9 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -1045px;
+}
+
+.score-number-Team2-N2-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -1045px;
+}
+
+.score-number-Team2-N2-10 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -1045px;
+}
+
+.score-number-Team2-N2-11 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -1045px;
+}
+
+.score-number-Team2-N2-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -1215px -5px;
+}
+
+.score-number-Team2-N2-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -1265px -215px;
+}
+
+.score-number-Team2-N2-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -1265px -425px;
+}
+
+.score-number-Team2-N2-5 {
+    width: 200px;
+    height: 200px;
+    background-position: -1265px -635px;
+}
+
+.score-number-Team2-N2-6 {
+    width: 200px;
+    height: 200px;
+    background-position: -1265px -845px;
+}
+
+.score-number-Team2-N2-7 {
+    width: 200px;
+    height: 200px;
+    background-position: -1265px -1055px;
+}
+
+.score-number-Team2-N2-8 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -1265px;
+}
+
+.score-number-Team2-N2-9 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -1265px;
+}
+
+.score-number-github {
+    width: 30px;
+    height: 30px;
+    background-position: -1420px 0;
+}
+
+.score-number-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -1450px 0;
+}
+
+.score-number-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -1480px 0;
+}
+
+.score-number-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -1510px 0;
+}
+
+.score-number-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -1540px 0;
+}
+
+.score-number-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -1420px -30px;
+}

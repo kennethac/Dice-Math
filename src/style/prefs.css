@@ -1,0 +1,25 @@
+.preference-pane {
+	padding-left: 250px;
+	padding-top: 50px;
+
+}
+
+.pref:not(:first-child) {
+	margin-top: 50px;
+}
+
+.pref > * {
+	display:inline-block;
+	vertical-align: text-top;
+}
+
+.opt {
+	width: 30%;
+}
+
+
+.dice-pref {
+	width:50px;
+}
+
+
