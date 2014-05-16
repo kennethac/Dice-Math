@@ -9,7 +9,7 @@ read -p "Commit message: " -e input
 # creates...
 
 echo "Replacing url's... "
-find * | grep '\.css\.html\|\.js' | xargs sudo sed -i -e 's/\/Dice\-Game\//\/\.\//g'
+find * | grep '\.css\|\.html\|\.js' | xargs sudo sed -i -e 's/\/Dice\-Game\//\/\.\//g'
 find * | grep "\-e" | xargs sudo rm
 echo "Replaced.\n"
 
