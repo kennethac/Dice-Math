@@ -3,13 +3,6 @@
 read -p "Commit message: " -e input
 
 
-# Ensure we have input for our git commit message.
-if [ $input -eq 0 ]
-	then 
-		echo "Supply a git commit message."
-		exit;
-fi
-
 # Substitute '/./' for '/Dice-Game/' in all html, css or js, files since the 
 # app is in root On heroku, but in /Dice-Game/ locally. (Should find a 
 # better fix) Also remove all the '-e' files bash so annoyingly 
@@ -23,7 +16,7 @@ echo "Replaced.\n"
 # Push to heroku (app "dice-math")
 echo "Adding and committing all files...."
 git add .
-git commit -am $input
+git commit -am "$input"
 echo "Done.\n"
 echo "Pushing to Heroku..."
 git push heroku master
