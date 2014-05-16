@@ -9,8 +9,8 @@ read -p "Commit message: " -e input
 # creates...
 
 echo "Replacing url's... "
-find . | grep '\.css\.html\|\.js' | xargs sed -i -e 's/\/Dice\-Game\//\/\.\//g'
-find . | grep "\-e" | xargs sudo rm
+find * | grep '\.css\.html\|\.js' | xargs sudo sed -i -e 's/\/Dice\-Game\//\/\.\//g'
+find * | grep "\-e" | xargs sudo rm
 echo "Replaced.\n"
 
 # Push to heroku (app "dice-math")
@@ -25,7 +25,7 @@ echo "Done pushing.\n"
 # Resubstitute '/Dice-Game/' for '/./' on local machine.
 
 echo "Reverting urls..."
-find . | grep '\.css\|\.html\|\.js' | xargs sed -i -e 's/\/\.\//\/Dice\-Game\//g'
-find . | grep "\-e" | xargs sudo rm
+find * | grep '\.css\|\.html\|\.js' | xargs sudo sed -i -e 's/\/\.\//\/Dice\-Game\//g'
+find * | grep "\-e" | xargs sudo rm
 echo "Done.\n"
 echo "App deployed.\n"

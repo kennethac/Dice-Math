@@ -156,27 +156,27 @@ span.digit {
 
 
 img.six-one {
-	background:url(/./src/img/Dice.png) 0 0;
+	background:url(/Dice-Game/src/img/Dice.png) 0 0;
 }
  
 img.six-two {
-	background:url(/./src/img/Dice.png) -67px 0px;
+	background:url(/Dice-Game/src/img/Dice.png) -67px 0px;
 }
 
 img.six-three {
-	background:url(/./src/img/Dice.png) -134px 0px;
+	background:url(/Dice-Game/src/img/Dice.png) -134px 0px;
 }
 
 img.six-four {
-	background:url(/./src/img/Dice.png) 0 -67px;
+	background:url(/Dice-Game/src/img/Dice.png) 0 -67px;
 }
 
 img.six-five {
-	background:url(/./src/img/Dice.png) -67px -67px;
+	background:url(/Dice-Game/src/img/Dice.png) -67px -67px;
 }
 
 img.six-six {
-	background:url(/./src/img/Dice.png) -134px -67px;
+	background:url(/Dice-Game/src/img/Dice.png) -134px -67px;
 }
 
 
