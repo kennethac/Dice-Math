@@ -23,6 +23,7 @@ git add .
 git commit -am $0
 echo "Done.\n"
 echo "Pushing to Heroku..."
+git push heroku master
 echo "Done pushing.\n"
 
 # Resubstitute '/Dice-Game/' for '/./' on local machine.
