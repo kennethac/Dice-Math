@@ -1,7 +1,10 @@
 #!/bin/bash
 
+read -p "Commit message: " -e input
+
+
 # Ensure we have input for our git commit message.
-if [ $# -eq 0 ]
+if [ $input -eq 0 ]
 	then 
 		echo "Supply a git commit message."
 		exit;
@@ -20,7 +23,7 @@ echo "Replaced.\n"
 # Push to heroku (app "dice-math")
 echo "Adding and committing all files...."
 git add .
-git commit -am $0
+git commit -am $input
 echo "Done.\n"
 echo "Pushing to Heroku..."
 git push heroku master
@@ -29,7 +32,7 @@ echo "Done pushing.\n"
 # Resubstitute '/Dice-Game/' for '/./' on local machine.
 
 echo "Reverting urls..."
-find . | grep '.css\|.html\|.js' | xargs sed -i -e 's/\/Dice\-Game\//\/\.\//g'
+find . | grep '.css\|.html\|.js' | xargs sed -i -e 's/\/\.\//\/Dice\-Game\//g'
 find . | grep "\-e" | xargs sudo rm
 echo "Done.\n"
 echo "App deployed.\n"
