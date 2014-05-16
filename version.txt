@@ -13,7 +13,8 @@
 		#	* Add Keyboard Game
 		#	* Add graphics for twenty sided dice
 		# 	* Clear input on Re-roll.
-
+		# 	* Rolling dice deletes the hypertext in the help link (as instructions change)
+		#	* Fix floating footer when screen is short - possibly just make fixed positioning.
 
 Version history:
 	0.9.1 (beta) (May 15, 2014)
