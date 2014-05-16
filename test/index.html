@@ -20,7 +20,7 @@
 <header class="nav">
 	<a href="/./prefs" class="btn btn-large btn-info pull-right pref-button">Preferences</a>
 	<h1>Welcome to the Dice Game</h1>
-	<h4 class="instructions">Press Start to begin</h4>
+	<h4 titled="Click to get help!" class="instructions"><a target="_blank" href="/./help">Press Start to begin</a></h4>
 </header>
 <div class="game-area container">
 
@@ -68,8 +68,10 @@
 <div class="calculator-holder">
 	<div class="calculator">
 		<div class="screen screen1">
-			<div class="button-ro btn-gw">
-				
+			<div class="button-row btn-group">
+				<button repr=1 class="btn calc-button screen-button">Operators</button>
+				<button repr=2 class="btn calc-button screen-button">Digits</button>
+				<button repr=3 class="btn calc-button screen-button">Functions</button>
 			</div>
 			<div class="button-row">
 				<button class="calc-button btn">+</button>
@@ -78,7 +80,7 @@
 			</div>
 			<div class="button-row">
 				<button class="calc-button btn">*</button>
-				<button class="calc-button btn">/</button>
+				<button class="calc-button btn">/./button>
 				<button class="calc-button btn"><<</button>
 			</div>
 			<div class="button-row">
@@ -89,13 +91,20 @@
 			<div class="button-row">
 				<button class="calc-button btn">(</button>
 				<button class="calc-button btn">)</button>
-				<button class="calc-button btn calc-right">-></button>
+				<button class="calc-button btn">!</button>
 			</div>
 			<div class="button-row">
+				<button class="calc-button btn calc-back">&#8656;</button>
 				<button class="calc-button btn calc-clear">Clear</button>
+				<button class="calc-button btn calc-right">&rarr;</button>
 			</div>
 		</div>
 		<div class="screen screen2">
+			<div class="button-row btn-group">
+				<button repr=1 class="btn calc-button screen-button">Operators</button>
+				<button repr=2 class="btn calc-button screen-button">Digits</button>
+				<button repr=3 class="btn calc-button screen-button">Functions</button>
+			</div>
 			<div class="button-row">
 				<button class="calc-button btn">1</button>
 				<button class="calc-button btn">2</button>
@@ -117,14 +126,19 @@
 				<button class="calc-button btn">.</button>
 			</div>
 			<div class="button-row">
-				<button class="calc-button btn calc-left"><-</button>
+				<button class="calc-button btn calc-left">&larr;</button>
 				<button class="calc-button btn calc-clear">Clear</button>
-				<button class="calc-button btn calc-right">-></button>
+				<button class="calc-button btn calc-right">&rarr;</button>
 
 			</div>
 
 		</div>
 		<div class="screen screen3">
+			<div class="button-row btn-group">
+				<button repr=1 class="btn calc-button screen-button">Operators</button>
+				<button repr=2 class="btn calc-button screen-button">Digits</button>
+				<button repr=3 class="btn calc-button screen-button">Functions</button>
+			</div>
 			<div class="button-row">
 				<button class="calc-button btn">sin(</button>
 				<button class="calc-button btn">cos(</button>
@@ -146,7 +160,7 @@
 				<button class="calc-button btn">arccot(</button>
 			</div>
 			<div class="button-row">
-				<button class="calc-button btn calc-left"><-</button>
+				<button class="calc-button btn calc-left">&larr;</button>
 				<button class="calc-button btn">exp(</button>
 				<button class="calc-button btn">log(</button>
 			</div>
@@ -197,6 +211,8 @@
 -->
 </div>
 
-
+<footer>
+	<p>&copy; 2014, Kenneth Christensen</p>
+</footer>
 </body>
 </html>

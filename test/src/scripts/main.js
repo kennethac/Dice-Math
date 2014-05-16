@@ -282,8 +282,8 @@ function checkVictory(){
 function win(){
 	winner_number = (teamOneScore > teamTwoScore) ? "1" : "2";
 //	winner_number = digitToWord(winner_number);
-//	$(".medal").attr("src","/./src/img/Team"+winner_number+"Medal.png");
-	$(".medal").css("background","url(/./src/img/Team"+winner_number+"Medal.png)");
+//	$(".medal").attr("src","//src/img/Team"+winner_number+"Medal.png");
+	$(".medal").css("background","url(//src/img/Team"+winner_number+"Medal.png)");
 //	$winner_content = $(".team-"+winner_number).parent().clone();
 //	$(".team-holder").html("");
 //	$(".team-holder").html($winner_content.html());
@@ -644,7 +644,7 @@ $(document).ready(function(){
 
 	    });
 
-	$("img.dice").attr("src","/./src/img/img_trans.gif");
+	$("img.dice").attr("src","//src/img/img_trans.gif");
 	$(".submit-btn").click(function(){
 		if (gameStarted !== true){
 		    feedback("You must begin the game to play! Press start!");

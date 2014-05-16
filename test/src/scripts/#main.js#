@@ -324,7 +324,7 @@ $(document).ready(function(){
 		rollDice();
 
 	    });
-	$(".dice").attr("src","/./src/img/img_trans.gif");
+	$(".dice").attr("src","//src/img/img_trans.gif");
 	$(".submit-btn").click(function(){
 		if (gameStarted !== true){
 		    alert("You must begin the game to play! Press start!");
