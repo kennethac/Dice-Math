@@ -17,6 +17,13 @@
 		#	* Fix floating footer when screen is short - possibly just make fixed positioning.
 
 Version history:
+	#	[Version a] [ Date version a deployed ]
+	# 		[changes in a to a+1]
+	0.9.2 (beta) (May 16, 2014)
+		In next version:
+		#	* Transition to a php "frame", for easier changes.
+		#	* Fix floating footer when screen is short - changed to fixed positioning.		
+
 	0.9.1 (beta) (May 15, 2014)
 		In next version:
 		#	* Added graphics for 12 sided dice

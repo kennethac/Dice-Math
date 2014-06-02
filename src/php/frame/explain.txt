@@ -1,0 +1,14 @@
+	In order to facilitate a simple, heterogenous frame for every page, I will use a single php import to import a 
+series of functions which will then be used ot import the proper html
+
+	The advantags to this approach are:
+		1. simple, concise calls to get info...
+
+			getHeadStart(),getMetaData(), getHeader() etc.
+
+		2. The ability to dynamically change output
+			getMeta(title) will be able to set the title of the page on the back end, for SEO.
+		
+		3. And the regular benefits of using a single framework for everypage.
+
+So, in every page, import "src/php/frame.php".

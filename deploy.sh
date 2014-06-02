@@ -7,9 +7,10 @@ read -p "Commit message: " -e input
 # app is in root On heroku, but in /Dice-Game/ locally. (Should find a 
 # better fix) Also remove all the '-e' files bash so annoyingly 
 # creates...
+# And substitute in php files!
 
 echo "Replacing url's... "
-find * | grep '\.css\|\.html\|\.js' | xargs sudo sed -i -e 's/\/Dice\-Game\//\/\.\//g'
+find * | grep '\.css\|\.html\|\.js\|\.php' | xargs sudo sed -i -e 's/\/Dice\-Game\//\/\.\//g'
 find * | grep "\-e" | xargs sudo rm
 echo "Replaced.\n"
 
@@ -25,7 +26,7 @@ echo "Done pushing.\n"
 # Resubstitute '/Dice-Game/' for '/./' on local machine.
 
 echo "Reverting urls..."
-find * | grep '\.css\|\.html\|\.js' | xargs sudo sed -i -e 's/\/\.\//\/Dice\-Game\//g'
+find * | grep '\.css\|\.html\|\.js\|\.php' | xargs sudo sed -i -e 's/\/\.\//\/Dice\-Game\//g'
 find * | grep "\-e" | xargs sudo rm
 echo "Done.\n"
 echo "App deployed.\n"

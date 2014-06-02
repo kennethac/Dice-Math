@@ -1,0 +1,20 @@
+<?php include($_SERVER["DOCUMENT_ROOT"]."/Dice-Game/src/php/frame/frame.php"); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<?php getHeadContents(""); ?>
+
+<!-- Get better js... -->
+
+
+</head>
+<body>
+<?php getHeader(); ?>
+
+
+</div>
+
+<?php getFooter(); ?>
+</body>
+</html>
+

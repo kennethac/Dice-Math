@@ -1,31 +1,13 @@
+<?php include($_SERVER["DOCUMENT_ROOT"]."/Dice-Game/src/php/frame/frame.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
-
-        <link rel="shortcut icon" href="/Dice-Game/src/img/favicon.ico" type="image/icon">
-        <link rel="icon" href="/Dice-Game/src/img/favicon.ico" type="image/icon">
-
-
-	<title>The Dice Game</title>
-	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-	<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
-
-	<link href="/Dice-Game/src/style/teams-stylesheet.css" rel="stylesheet" type="text/css">
-	<link href="/Dice-Game/src/style/score-stylesheet.css" rel="stylesheet" type="text/css">
-	<link href="/Dice-Game/src/style/main.css" rel="stylesheet" type="text/css">
+	<?php getHeadContents("Preferences"); ?>
 	<link href="/Dice-Game/src/style/prefs.css" rel="stylesheet" type="text/css">
-
 	<script type="text/javascript" src="/Dice-Game/src/scripts/prefs.js"></script>
 </head>
 <body>
-<img class="smartboard" src="/Dice-Game/src/img/smart-board.jpg"/>
-
-<header class="nav">
-	<a href="/Dice-Game/index.html" class="btn btn-large btn-info pull-right pref-button">Back to Game</a>
-	<h1>Dice Game Preferences</h1>
-	<h4 class="instructions">Modify your game preferences</h4>
-</header>
+	<?php getHeader(); ?>
 <div class="preference-pane">
 
 	<div class="pref">
@@ -104,8 +86,6 @@
 
 </div>
 
-<footer>        
-        <p>&copy; 2014, Kenneth Christensen</p>
-</footer>
+	<?php getFooter(); ?>
 </body>
 </html>
